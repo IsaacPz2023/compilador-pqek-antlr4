@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.app">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="12" y="9" width="802" height="537"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="374b" binding="split">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <splitpane id="fbdea" binding="split_2">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <orientation value="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="819e4" binding="panel_control_consola" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="b183c" binding="panel_contro_sub_consola" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="3faf6" class="javax.swing.JButton" binding="btn_console_problem">
+                        <constraints/>
+                        <properties>
+                          <background color="-14538703"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="Century Gothic" size="10" style="0"/>
+                          <foreground color="-1118482"/>
+                          <horizontalTextPosition value="0"/>
+                          <label value="PROBLEM"/>
+                          <margin top="2" left="0" bottom="3" right="0"/>
+                          <maximumSize width="36" height="14"/>
+                          <minimumSize width="36" height="14"/>
+                          <preferredSize width="60" height="20"/>
+                          <text value="PROBLEM"/>
+                        </properties>
+                      </component>
+                      <component id="6a702" class="javax.swing.JButton" binding="btn_console_output">
+                        <constraints/>
+                        <properties>
+                          <background color="-14538703"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="Century Gothic" size="10" style="0"/>
+                          <foreground color="-1118482"/>
+                          <horizontalTextPosition value="0"/>
+                          <label value="OUTPUT"/>
+                          <margin top="2" left="0" bottom="3" right="0"/>
+                          <maximumSize width="36" height="14"/>
+                          <minimumSize width="36" height="14"/>
+                          <preferredSize width="50" height="20"/>
+                          <text value="OUTPUT"/>
+                        </properties>
+                      </component>
+                      <component id="625e2" class="javax.swing.JButton" binding="btn_console">
+                        <constraints/>
+                        <properties>
+                          <background color="-14538703"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="Century Gothic" size="10" style="0"/>
+                          <foreground color="-1118482"/>
+                          <horizontalTextPosition value="0"/>
+                          <margin top="2" left="0" bottom="3" right="0"/>
+                          <maximumSize width="36" height="14"/>
+                          <minimumSize width="36" height="14"/>
+                          <preferredSize width="60" height="20"/>
+                          <text value="CONSOLE"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="929e3" binding="panel_consola" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="68cd7" binding="scroll_consola">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="736e5" class="javax.swing.JTextArea" binding="txt_consolas">
+                            <constraints/>
+                            <properties>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                        </children>
+                      </scrollpane>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="13ea5" binding="panel_editor" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties>
+                  <preferredSize width="204" height="500"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <tabbedpane id="49733" binding="tabbedPane1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="200"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <scrollpane id="f2d00" binding="scroll_editor">
+                        <constraints>
+                          <tabbedpane title="Untitled"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </scrollpane>
+                    </children>
+                  </tabbedpane>
+                </children>
+              </grid>
+            </children>
+          </splitpane>
+          <grid id="2e75d" binding="panel_proyecto" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <background color="-14538703"/>
+              <preferredSize width="220" height="410"/>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="9574b" binding="panel_control_tree" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-14538703"/>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8b331" class="javax.swing.JButton" binding="btn_new_file">
+                    <constraints/>
+                    <properties>
+                      <background color="-14538703"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <foreground color="-1118482"/>
+                      <label value=""/>
+                      <maximumSize width="30" height="30"/>
+                      <minimumSize width="30" height="30"/>
+                      <preferredSize width="30" height="30"/>
+                      <text value=""/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="f0d6a" class="javax.swing.JButton" binding="btn_open_folder">
+                    <constraints/>
+                    <properties>
+                      <background color="-14538703"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <foreground color="-1118482"/>
+                      <label value=""/>
+                      <maximumSize width="30" height="30"/>
+                      <minimumSize width="30" height="30"/>
+                      <preferredSize width="30" height="30"/>
+                      <text value=""/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="357e7" class="javax.swing.JButton" binding="btn_add_folder">
+                    <constraints/>
+                    <properties>
+                      <background color="-14538703"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <foreground color="-1118482"/>
+                      <label value=""/>
+                      <maximumSize width="30" height="30"/>
+                      <minimumSize width="30" height="30"/>
+                      <preferredSize width="30" height="30"/>
+                      <text value=""/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="1dfdd" class="javax.swing.JButton" binding="btn_run">
+                    <constraints/>
+                    <properties>
+                      <background color="-14538703"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <foreground color="-1118482"/>
+                      <label value=""/>
+                      <maximumSize width="30" height="30"/>
+                      <minimumSize width="30" height="30"/>
+                      <preferredSize width="30" height="30"/>
+                      <text value=""/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="6441" binding="scroll_tree">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-14538703"/>
+                  <foreground color="-1118482"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="aaeb9" class="javax.swing.JTree" binding="tree_fichero">
+                    <constraints/>
+                    <properties>
+                      <background color="-14538703"/>
+                      <foreground color="-1118482"/>
+                      <opaque value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
